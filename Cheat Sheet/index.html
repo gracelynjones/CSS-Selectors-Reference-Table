@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors and Specificity</title>
+    <link rel="stylesheet" href="Resources/styles.css">
+</head>
+<body>
+    <h1 id="title">CSS Selectors and Specificity</h1>
+    <table>
+        <tr>
+            <th class="table-header">Selector Type</th>
+            <th class="table-header">Sepcificity</th>
+            <th class="table-header">HTML Example</th>
+            <th class="table-header">CSS Example</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th> Most specific. </th>
+            <th class="code"> &lt;div id="identified"&gt;This div has a special ID on it!&lt;/div&gt; </th>
+            <th class="code">#identified {
+            background-color: skyblue;}</th>
+        </tr>
+        <tr>
+            <th>Class</th>
+            <th>Second-most specific. </th>
+            <th class="code">&lt;p class="red">This paragraph has red text.&lt;/p&gt;</th>
+            <th class="code">.red {
+            color: #f33;}</th>
+        </tr>
+        <tr>
+            <th>Type</th>
+            <th>Least specific.</th>
+            <th class="code">&lt;span&gt;Here's a span with some text.&lt;/span&gt;</th>
+            <th class="code">span {
+            background-color: skyblue;}</th>
+        </tr>
+    </table>
+</body>
+</html>

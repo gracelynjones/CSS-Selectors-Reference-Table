@@ -1,0 +1,29 @@
+#title{
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid darkslateblue;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lavender;
+}
+
+h1{
+    background-color: darkslateblue;
+    color: white;
+}
+
+.table-header{
+    font-size: larger;
+}
+
+.code{
+    font-family: monospace;
+    background-color:gainsboro;
+}
